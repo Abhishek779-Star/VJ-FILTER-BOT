@@ -1,6 +1,6 @@
 # Don't Remove Credit @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @AV_King1
+# Ask Doubt on telegram https://t.me/mimam_ripper
 
 
 import re
