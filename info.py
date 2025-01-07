@@ -1,6 +1,6 @@
 # Don't Remove Credit @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Ask Doubt on telegram @AV_King1
 
 
 import re
@@ -11,25 +11,25 @@ id_pattern = re.compile(r'^.\d+$')
 
 # Bot information
 SESSION = environ.get('SESSION', 'TechVJBot')
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
+API_ID = int(environ.get('API_ID', '16402669'))
+API_HASH = environ.get('API_HASH', 'e50b6c6e9dc8077ec3e9db0e565631e4')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 
 # This Pictures Is For Start Message Picture, You Can Add Multiple By Giving One Space Between Each.
-PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split()
+PICS = (environ.get('PICS', 'https://i.ibb.co/h9GBt42/file-6320.jpg')).split()
 
 
 # Admins & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()] # For Multiple Id Use One Space Between Each.
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6570474744').split()] # For Multiple Id Use One Space Between Each.
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]  # For Multiple Id Use One Space Between Each.
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 
 # This Channel Is For When User Start Your Bot Then Bot Send That User Name And Id In This Log Channel, Same For Group Also.
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002232668601'))
 
 # This Is File Channel Where You Upload Your File Then Bot Automatically Save It In Database 
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '').split()]  # For Multiple Id Use One Space Between Each.
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002046155403').split()]  # For Multiple Id Use One Space Between Each.
 
 # auth_channel means force subscribe channel.
 # if REQUEST_TO_JOIN_MODE is true then force subscribe work like request to join fsub, else if false then work like normal fsub.
@@ -37,15 +37,15 @@ REQUEST_TO_JOIN_MODE = bool(environ.get('REQUEST_TO_JOIN_MODE', False)) # Set Tr
 TRY_AGAIN_BTN = bool(environ.get('TRY_AGAIN_BTN', False)) # Set True Or False (This try again button is only for request to join fsub not for normal fsub)
 
 # This Is Force Subscribe Channel, also known as Auth Channel 
-auth_channel = environ.get('AUTH_CHANNEL', '') # give your force subscribe channel id here else leave it blank
+auth_channel = environ.get('AUTH_CHANNEL', '-1002006400723') # give your force subscribe channel id here else leave it blank
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 
 # This Channel Is For When User Request File With command or hashtag like - /request or #request
-reqst_channel = environ.get('REQST_CHANNEL_ID', '')
+reqst_channel = environ.get('REQST_CHANNEL_ID', '-1002421169275')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 
 # This Is Your Bot Support Group Id , Here Bot Will Not Give File Because This Is Support Group.
-support_chat_id = environ.get('SUPPORT_CHAT_ID', '')
+support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1002397537869')
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 
 # This Channel Is For Index Request 
@@ -59,8 +59,8 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "")   # IF Multiple Database Is False Then Fill Only This Database Url.
-DATABASE_NAME = environ.get('DATABASE_NAME', "techvjclonefilterbot")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://abhishek:67700324fe747472570f5136@cluster0.zzzuk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")   # IF Multiple Database Is False Then Fill Only This Database Url.
+DATABASE_NAME = environ.get('DATABASE_NAME', "abhishek")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'vjcollection')
 
 MULTIPLE_DATABASE = bool(environ.get('MULTIPLE_DATABASE', False)) # Set True or False
@@ -77,21 +77,20 @@ PREMIUM_AND_REFERAL_MODE = bool(environ.get('PREMIUM_AND_REFERAL_MODE', True)) #
 # If PREMIUM_AND_REFERAL_MODE is True Then Fill Below Variable, If Flase Then No Need To Fill.
 REFERAL_COUNT = int(environ.get('REFERAL_COUNT', '20')) # number of referal count
 REFERAL_PREMEIUM_TIME = environ.get('REFERAL_PREMEIUM_TIME', '1month') # time in week, day, month.
-PAYMENT_QR = environ.get('PAYMENT_QR', 'https://graph.org/file/ce1723991756e48c35aa1.jpg') # payment code picture url.
-PAYMENT_TEXT = environ.get('PAYMENT_TEXT', '<b>- ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟᴀɴs - \n\n- 30ʀs - 1 ᴡᴇᴇᴋ\n- 50ʀs - 1 ᴍᴏɴᴛʜs\n- 120ʀs - 3 ᴍᴏɴᴛʜs\n- 220ʀs - 6 ᴍᴏɴᴛʜs\n\n🎁 ᴘʀᴇᴍɪᴜᴍ ғᴇᴀᴛᴜʀᴇs 🎁\n\n○ ɴᴏ ɴᴇᴇᴅ ᴛᴏ ᴠᴇʀɪғʏ\n○ ɴᴏ ɴᴇᴇᴅ ᴛᴏ ᴏᴘᴇɴ ʟɪɴᴋ\n○ ᴅɪʀᴇᴄᴛ ғɪʟᴇs\n○ ᴀᴅ-ғʀᴇᴇ ᴇxᴘᴇʀɪᴇɴᴄᴇ\n○ ʜɪɢʜ-sᴘᴇᴇᴅ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ\n○ ᴍᴜʟᴛɪ-ᴘʟᴀʏᴇʀ sᴛʀᴇᴀᴍɪɴɢ ʟɪɴᴋs\n○ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏᴠɪᴇs & sᴇʀɪᴇs\n○ ꜰᴜʟʟ ᴀᴅᴍɪɴ sᴜᴘᴘᴏʀᴛ\n○ ʀᴇǫᴜᴇsᴛ ᴡɪʟʟ ʙᴇ ᴄᴏᴍᴘʟᴇᴛᴇᴅ ɪɴ 1ʜ ɪꜰ ᴀᴠᴀɪʟᴀʙʟᴇ\n\n✨ ᴜᴘɪ ɪᴅ - <code>demo@okxyz</code>\n\nᴄʟɪᴄᴋ ᴛᴏ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ /myplan\n\n💢 ᴍᴜsᴛ sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ ᴀғᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ\n\n‼️ ᴀғᴛᴇʀ sᴇɴᴅɪɴɢ ᴀ sᴄʀᴇᴇɴsʜᴏᴛ ᴘʟᴇᴀsᴇ ɢɪᴠᴇ ᴜs sᴏᴍᴇ ᴛɪᴍᴇ ᴛᴏ ᴀᴅᴅ ʏᴏᴜ ɪɴ ᴛʜᴇ ᴘʀᴇᴍɪᴜᴍ</b>')
-
+PAYMENT_QR = environ.get('PAYMENT_QR', 'https://graph.org/file/47fed40f71a411a00e656-ac50cff8e8e973067d.jpg') # payment code picture url.
+PAYMENT_TEXT = environ.get('PAYMENT_TEXT', '<b>-💰💳𝐇𝐞𝐲 𝐏𝐫𝐞𝐦𝐢𝐮𝐦 𝐏𝐥𝐚𝐧𝐬 💲  \n\n- ✅New Plans For TV Shows Premium Channel😍\n\n[MRN Premium Tv, 🎞All Indian Hindi TV Shows ]\n- ━━━━━━━━━━━━━━━━━━━━\n\n- ⚡️>>> Rs. 35 -  1 Week\n- ⚡️>>> Rs. 75 -  1 Months\n- ⚡️>>> Rs. 140 - 2 Months\n- ⚡️>>> Rs. 215 -  3 Months\n- ⚡️>>> Rs. 290 -  4 Months\n- ⚡️>>> Rs. 365 -  5 Months\n\n✨ᴜᴘɪ ɪᴅ ➢ <code>abhishek.kumar6395@fam</code> \n\n🚨These Prices Are Now Permanent Plans.\n\n✅1-Day Demo/Trial Also Available Here.\n\nOTT: Hotstar, ZEE5, JioCinema, SONYLIV, DangalPlay,\ShemarooMe, EpicOn Etc. all OTT Movies and Webseries available\n\n⚡️Grab It Fast ASAP😘 [💯Trusted]\n\n👨‍💻Contact Us @AV_King1\n\n⚠️𝗦𝗲𝗻𝗱 𝗦𝗦 𝗔𝗳𝘁𝗲𝗿 𝗣𝗮𝘆𝗺𝗲𝗻𝘁⚠️ 𝗔𝗳𝘁𝗲𝗿 𝘀𝗲𝗻𝗱𝗶𝗻𝗴 𝗮 𝗦𝗰𝗿𝗲𝗲𝗻𝘀𝗵𝗼𝘁 𝗽𝗹𝗲𝗮𝘀𝗲 𝗴𝗶𝘃𝗲 𝘂𝘀 𝘀𝗼𝗺𝗲 𝘁𝗶𝗺𝗲 𝘁𝗼 𝗮𝗱𝗱 𝘆𝗼𝘂 𝗶𝗻 𝘁𝗵𝗲 𝗽𝗿𝗲𝗺𝗶𝘂𝗺 𝘃𝗲𝗿𝘀𝗶𝗼𝗻｡｡</b>')
 
 # Clone Information : If Clone Mode Is True Then Bot Clone Other Bots.
 CLONE_MODE = bool(environ.get('CLONE_MODE', False)) # Set True or False
 CLONE_DATABASE_URI = environ.get('CLONE_DATABASE_URI', "") # Necessary If clone mode is true
-PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Username Without @ or without https://t.me/ and Bot Is Admin With Full Right.
+PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', 'MZAUTOFILTER') # Public Channel Username Without @ or without https://t.me/ and Bot Is Admin With Full Right.
 
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/vj_bot_disscussion')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/vj_botz')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'vj_bot_disscussion') # Support Chat Link Without https:// or @
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/kingvj01')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Movies_World_Request_Group_hdx')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/MOVIES_WORLDZS')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Movies_World_Support_Group') # Support Chat Link Without https:// or @
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/AV_King1')
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
