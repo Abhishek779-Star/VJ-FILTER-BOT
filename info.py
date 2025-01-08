@@ -4,24 +4,15 @@
 
 # Ask Doubt on telegram https://t.me/mimam_ripper
 
-
-
-
-
 import re
 
 from os import environ
 
 from Script import script 
 
-
-
 id_pattern = re.compile(r'^.\d+$')
 
-
-
 # Bot information
-
 SESSION = environ.get('SESSION', 'TechVJBot')
 
 API_ID = int(environ.get('API_ID', '16402669'))
