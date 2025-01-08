@@ -123,7 +123,7 @@ CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/MOVIES_WORLDZS')
 
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Movies_World_Support_Group') # Support Chat Link Without https:// or @
 
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/AV_King1')
+OWNER_LNK = environ.get('ཧᜰ꙰ꦿ➢𝐀𝐛𝔥𝕚ŞℍＥҜ༒', 'https://t.me/AV_King1')
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
