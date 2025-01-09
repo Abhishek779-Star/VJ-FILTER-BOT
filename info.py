@@ -130,7 +130,7 @@ AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
 
 PM_SEARCH = bool(environ.get('PM_SEARCH', True))
 
-BUTTON_MODE = bool(environ.get('BUTTON_MODE', True))
+BUTTON_MODE = bool(environ.get('TEXT_MODE', True))
 
 MAX_BTN = bool(environ.get('MAX_BTN', True))
 
