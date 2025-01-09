@@ -132,7 +132,7 @@ PM_SEARCH = bool(environ.get('PM_SEARCH', True))
 
 BUTTON_MODE = bool(environ.get('BUTTON_MODE', False))
 
-MAX_BTN = bool(environ.get('MAX_BTN', True))
+MAX_BTN = bool(environ.get('MAX_BTN', False))
 
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
 
