@@ -136,7 +136,7 @@ MAX_BTN = bool(environ.get('MAX_BTN', False))
 
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
 
-IMDB = bool(environ.get('IMDB', False))
+IMDB = bool(environ.get('IMDB', True))
 
 AUTO_FFILTER = bool(environ.get('AUTO_FFILTER', True))
 
