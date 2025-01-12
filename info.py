@@ -106,26 +106,26 @@ REFERAL_PREMEIUM_TIME = environ.get('REFERAL_PREMEIUM_TIME', '1month') # time in
 
 PAYMENT_QR = environ.get('PAYMENT_QR', 'https://graph.org/file/47fed40f71a411a00e656-ac50cff8e8e973067d.jpg') # payment code picture url.
 
-PAYMENT_TEXT = environ.get('PAYMENT_TEXT', '<b>💰💳𝐇𝐞𝐲 𝐏𝐫𝐞𝐦𝐢𝐮𝐦 𝐏𝐥𝐚𝐧𝐬 💲 𝗣𝗿𝗲𝗺𝗶𝘂𝗺 𝗙𝗲𝗮𝘁𝘂𝗿𝗲
-    ๋࣭ ⭑⚝ 𝗪𝗶𝘁𝗵𝗼𝘂𝘁 𝗮𝗱𝘀
+PAYMENT_TEXT = environ.get('PAYMENT_TEXT', '<blockquote>💰💳𝐇𝐞𝐲 𝐏𝐫𝐞𝐦𝐢𝐮𝐦 𝐏𝐥𝐚𝐧𝐬 💲
+𝗣𝗿𝗲𝗺𝗶𝘂𝗺 𝗙𝗲𝗮𝘁𝘂𝗿𝗲<blockquote>
+ <blockquote>  ๋࣭ ⭑⚝ 𝗪𝗶𝘁𝗵𝗼𝘂𝘁 𝗮𝗱𝘀
     ๋࣭ ⭑⚝ 𝗡𝗼 𝘃𝗲𝗿𝗶𝗳𝗶𝗰𝗮𝘁𝗶𝗼𝗻
     ๋࣭ ⭑⚝ 𝗗𝗶𝗿𝗲𝗰𝘁 𝗱𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝘁𝗼 𝗰𝗵𝗿𝗼𝗺𝗲
     ๋࣭ ⭑⚝ 𝗗𝗶𝗿𝗲𝗰𝘁 𝗽𝗹𝗮𝘆 𝗶𝗻 𝘃𝗹𝗰/𝗺𝘅-𝗽𝗹𝗮𝘆𝗲𝗿 𝗮𝗻𝗱 𝗺𝗼𝗿𝗲 𝗽𝗹𝗮𝘆𝗲𝗿 𝗮𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲
     ๋࣭ ⭑⚝ 𝗙𝘂𝗹𝗹 𝗔𝗱𝗺𝗶𝗻 𝘀𝘂𝗽𝗽𝗼𝗿𝘁
     ๋࣭ ⭑⚝ 𝗛𝗶𝗴𝗵 𝘀𝗽𝗲𝗲𝗱 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱
     ๋࣭ ⭑⚝ 𝗧𝗩 𝗦𝗲𝗿𝗶𝗮𝗹𝘀
-    ๋࣭ ⭑⚝ 𝗡𝗲𝘄/𝗢𝗹𝗱 𝗠𝗼𝘃𝗶𝗲𝘀 𝗮𝗻𝗱 𝗦𝗲𝗿𝗶𝗲𝘀
-    ๋࣭ ⭑⚝ 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝘄𝗶𝗹𝗹 𝗯𝗲 𝗰𝗼𝗺𝗽𝗹𝗲𝘁𝗲𝗱 𝗶𝗻 𝟭 𝗵𝗼𝘂𝗿 𝗶𝗳 𝗮𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲｡
-    
-𝗔𝗹𝗹 𝗣𝗿𝗶𝗰𝗲 𝗟𝗶𝘀𝘁
-   ╭━━━━━━━━╮
-   • ₹10 - 1 Week
-   • ₹30 - 1 Month
-   • ₹60 - 2 Months
-   • ₹90 - 3 Months
-   • ₹120 - 7 months
-   ╰━━━━━━━━╯
-ᴄᴏᴘʏ ᴛʜɪs ᴜᴘɪ ɪᴜᴘɪ ɪᴅ ➢ abhishek.kumar6395@fam ⚠️𝗦𝗲𝗻𝗱 𝗦𝗦 𝗔𝗳𝘁𝗲𝗿 𝗣𝗮𝘆𝗺𝗲𝗻𝘁⚠️ 𝗔𝗳𝘁𝗲𝗿 𝘀𝗲𝗻𝗱𝗶𝗻𝗴 𝗮 𝗦𝗰𝗿𝗲𝗲𝗻𝘀𝗵𝗼𝘁 𝗽𝗹𝗲𝗮𝘀𝗲 𝗴𝗶𝘃𝗲 𝘂𝘀 𝘀𝗼𝗺𝗲 𝘁𝗶𝗺𝗲 𝘁𝗼 𝗮𝗱𝗱 𝘆𝗼𝘂 𝗶𝗻 𝘁𝗵𝗲 𝗽𝗿𝗲𝗺𝗶𝘂𝗺 𝘃𝗲𝗿𝘀𝗶𝗼𝗻｡｡</b>')
+    ๋࣭ ⭑⚝ 𝗡𝗲𝘄/𝗢𝗹𝗱 𝗠𝗼𝘃𝗶𝗲𝘀 𝗮𝗻𝗱 𝗦𝗲𝗿𝗶𝗲𝘀<blockquote>
+<blockquote>    ๋࣭ ⭑⚝ 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝘄𝗶𝗹𝗹 𝗯𝗲 𝗰𝗼𝗺𝗽𝗹𝗲𝘁𝗲𝗱 𝗶𝗻 𝟭 𝗵𝗼𝘂𝗿 𝗶𝗳 𝗮𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲｡<blockquote>\n𝗔𝗹𝗹𝗣𝗿𝗶𝗰𝗲𝗟𝗶𝘀𝘁n
+  <blockquote> ╭━━━━━━━━╮
+   • ₹10 - 1 Week\n
+   • ₹30 - 1 Month\n
+   • ₹60 - 2 Months\n
+   • ₹90 - 3 Months\n
+   • ₹120 - 7 months\n
+   ╰━━━━━━━━╯<blockquote>\nᴄᴏᴘʏ ᴛʜɪs ᴜᴘɪ ɪᴅ\n
+✨ᴜᴘɪɪᴅ➢<code>abhishek.kumar6395@fam</code>
+<blockquote>⚠️𝗦𝗲𝗻𝗱 𝗦𝗦 𝗔𝗳𝘁𝗲𝗿 𝗣𝗮𝘆𝗺𝗲𝗻𝘁⚠️ 𝗔𝗳𝘁𝗲𝗿 𝘀𝗲𝗻𝗱𝗶𝗻𝗴 𝗮 𝗦𝗰𝗿𝗲𝗲𝗻𝘀𝗵𝗼𝘁 𝗽𝗹𝗲𝗮𝘀𝗲 𝗴𝗶𝘃𝗲 𝘂𝘀 𝘀𝗼𝗺𝗲 𝘁𝗶𝗺𝗲 𝘁𝗼 𝗮𝗱𝗱 𝘆𝗼𝘂 𝗶𝗻 𝘁𝗵𝗲 𝗽𝗿𝗲𝗺𝗶𝘂𝗺 𝘃𝗲𝗿𝘀𝗶𝗼𝗻｡｡<blockquote>')')
 
 # Clone Information : If Clone Mode Is True Then Bot Clone Other Bots.
 
