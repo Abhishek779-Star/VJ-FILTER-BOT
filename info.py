@@ -117,13 +117,13 @@ CLONE_DATABASE_URI = environ.get('CLONE_DATABASE_URI', "") # Necessary If clone 
 PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', 'MZAUTOFILTER') # Public Channel Username Without @ or without https://t.me/ and Bot Is Admin With Full Right.
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Movies_World_Support_Group')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Movies_World_Request_Group_hdx')
 
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/MOVIES_WORLDZS')
 
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Movies_World_Support_Group') # Support Chat Link Without https:// or @
 
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Movies_World_Request_Group_hdx')
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/AV_King1')
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
