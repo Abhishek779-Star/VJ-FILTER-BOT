@@ -23,37 +23,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # This Pictures Is For Start Message Picture, You Can Add Multiple By Giving One Space Between Each.
 
-PICS = (environ.get('PICS', 'https://i.ibb.co/h9GBt42/file-6320.jpg
-
-https://i.ibb.co/n30XbDd/file-2317.jpg
-
-https://i.ibb.co/4fDd5BK/file-2317.jpg
-
-https://i.ibb.co/8dTrcPy/file-2319.jpg
-
-https://i.ibb.co/F41g7Hh/file-2320.jpg
-
-https://i.ibb.co/jh1HK8Q/file-2321.jpg
-
-https://i.ibb.co/CJ8XVjM/file-2322.jpg
-
-https://i.ibb.co/dcmyNnw/file-2323.jpg
-
-https://i.ibb.co/KLyrR0f/file-2324.jpg
-
-https://i.ibb.co/52gQ6g4/file-2325.jpg
-
-https://i.ibb.co/vZWTsCn/file-2326.jpg
-
-https://i.ibb.co/WHHkRgj/file-2327.jpg
-
-https://i.ibb.co/YBnjXZb/file-2328.jpg
-
-https://i.ibb.co/7YtFPC7/file-2329.jpg
-
-https://i.ibb.co/D1r9Dcc/file-2331.jpg
-
-https://i.ibb.co/jgF3LBq/file-2332.jpg')).split()
+PICS = (environ.get('PICS', 'https://i.ibb.co/h9GBt42/file-6320.jpg https://i.ibb.co/n30XbDd/file-2317.jpg https://i.ibb.co/4fDd5BK/file-2317.jpg https://i.ibb.co/8dTrcPy/file-2319.jpg https://i.ibb.co/F41g7Hh/file-2320.jpg https://i.ibb.co/jh1HK8Q/file-2321.jpg https://i.ibb.co/CJ8XVjM/file-2322.jpg https://i.ibb.co/dcmyNnw/file-2323.jpg https://i.ibb.co/KLyrR0f/file-2324.jpg https://i.ibb.co/52gQ6g4/file-2325.jpg https://i.ibb.co/vZWTsCn/file-2326.jpg https://i.ibb.co/WHHkRgj/file-2327.jpg https://i.ibb.co/YBnjXZb/file-2328.jpg https://i.ibb.co/7YtFPC7/file-2329.jpg https://i.ibb.co/D1r9Dcc/file-2331.jpg https://i.ibb.co/jgF3LBq/file-2332.jpg')).split()
 
 # Admins & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6570474744').split()] # For Multiple Id Use One Space Between Each.
