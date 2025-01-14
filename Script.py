@@ -524,7 +524,7 @@ Hey <a href='tg://settings'>ᴍʏ ғʀɪᴇɴᴅ</a>
 
  Step 2: Add your website and API
 
- Exp: /shortlink omegalinks.in 4b392f8eb6ad711fbe58
+ Exp: /shortlink https://runurl.in/ref/Abhishek6395 737344e8f092fd933e1cc533f75884744e0394d6
 
  Add a video
 
