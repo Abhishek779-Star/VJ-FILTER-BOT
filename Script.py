@@ -246,9 +246,9 @@ Nᴀᴍᴇ - {}"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ</b>""":<b>{file_name}</b>"""
+    CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ  :{file_name}
 
-<b>📢 Jᴏɪɴ : @MOVIES_WORLDZS ❤️‍🔥</b>"""
+                        📢 Jᴏɪɴ : @MOVIES_WORLDZS ❤️‍🔥
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
