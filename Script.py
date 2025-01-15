@@ -246,7 +246,8 @@ Nᴀᴍᴇ - {}"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ  :<b> {file_name}</b>"""  <b> 📢 Jᴏɪɴ : @MOVIES_WORLDZS ❤️‍🔥</b>""" 
+    CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ  :{file_name} 
+    📢 Jᴏɪɴ : @MOVIES_WORLDZS ❤️‍🔥
 
 <b> Size ⚙️: {file_size}</b>""" 
 
