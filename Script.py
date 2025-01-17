@@ -248,7 +248,7 @@ Nᴀᴍᴇ - {}"""
 
     CAPTION = """<b>📂Fɪʟᴇ ɴᴀᴍᴇ : {file_name}
 
-📢 Jᴏɪɴ : @MOVIES_WORLDZS ❤️‍🔥 </b>
+📢 Jᴏɪɴ : @MOVIES_WORLDZS ❤️‍🔥 </b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
