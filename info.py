@@ -158,6 +158,7 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 # Token Verification Info :
 
+VERIFY_IMG = environ.get("https://i.ibb.co/GnBwcN5/file-7775.jpg", "https://i.ibb.co/svLFT8Z/file-7774.jpg")
 VERIFY = bool(environ.get('VERIFY', True))
 
 VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'runurl.in)
