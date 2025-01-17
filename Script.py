@@ -246,10 +246,9 @@ Nᴀᴍᴇ - {}"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ  :{file_name} 
-    📢 Jᴏɪɴ : @MOVIES_WORLDZS ❤️‍🔥
+    CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ  :<b>📂Fɪʟᴇ ɴᴀᴍᴇ : {file_name}
 
-<b> Size ⚙️: {file_size}</b>""" 
+📢 Jᴏɪɴ : @MOVIES_WORLDZS </b>
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
