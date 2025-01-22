@@ -538,11 +538,14 @@ async def start(client, message):
                     ],[
                         InlineKeyboardButton("How To Open Link & Verify", url=VERIFY_TUTORIAL)
                     ]]
-                    await message.reply_text(
-                        text="<b>You are not verified !\nKindly verify to continue !</b>"
-                        protect_content=True,
-                        reply_markup=InlineKeyboardMarkup(btn)
-                    )
+                    reply_markup = InlineKeyboardMarkup(btn)
+    await bot.send_photo(
+        chat_id=query.message.chat.id,
+        photo="https://i.ibb.co/GnBwcN5/file-7775.jpg",
+        caption=f'verify first then you can use me',
+        reply_markup=reply_markup,
+        parse_mode=enums.ParseMode.HTML
+    )
                     return
             button = [[
                 InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
