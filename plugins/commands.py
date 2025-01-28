@@ -543,7 +543,7 @@ async def start(client, message):
                         chat_id=query.message.chat.id,            
                         photo="https://i.ibb.co/GnBwcN5/file-7775.jpg"            
                         caption=f'verify first then you can use me',            
-                    reply_markup=reply_markup            
+                    reply_markup=reply_markup,            
                     parse_mode=enums.ParseMode.HTML
 )
                     return
