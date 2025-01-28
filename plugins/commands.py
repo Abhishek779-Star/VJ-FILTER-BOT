@@ -538,7 +538,7 @@ async def start(client, message):
                     ],[
                         InlineKeyboardButton("⚠️ How To Open Link & Verify ⚠️", url=VERIFY_TUTORIAL)
                     ]]
-                    photo="https://i.ibb.co/GnBwcN5/file-7775.jpg",
+                    photo="https://i.ibb.co/GnBwcN5/file-7775.jpg"
                     reply_markup = InlineKeyboardMarkup(btn)            
                     await message.reply_text(
                         text="<b>You are not verified !\nKindly verify to continue !</b>",
