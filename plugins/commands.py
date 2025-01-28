@@ -537,7 +537,7 @@ async def start(client, message):
                         InlineKeyboardButton("♻️ Verify ♻️", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
                     ],[
                         InlineKeyboardButton("⚠️ How To Open Link & Verify ⚠️", url=VERIFY_TUTORIAL)
-                    ]]
+                    ]]            
                     reply_markup = InlineKeyboardMarkup(btn)            
                     await bot.send_photo(
         chat_id=query.message.chat.id,
